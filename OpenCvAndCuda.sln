@@ -5,13 +5,17 @@ VisualStudioVersion = 15.0.28307.438
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AdderCuda", "HelloCuda\HelloCuda.vcxproj", "{DA89EEA2-0CD0-4CCE-BCC7-731FB6F12816}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ThreadingCuda", "ThreadingCuda\ThreadingCuda.vcxproj", "{47C032D5-69AA-4FC2-AE94-C3639FA64559}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BasicThreadingCuda", "ThreadingCuda\ThreadingCuda.vcxproj", "{47C032D5-69AA-4FC2-AE94-C3639FA64559}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VectorAddition", "VectorAddition\VectorAddition.vcxproj", "{BD1AEAA5-B29A-4EB4-9969-435E45BA5BBD}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SquareVectors", "SquareVectors\SquareVectors.vcxproj", "{FB68EF4F-7F15-44AD-A029-EC59F1C6320C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter2Exercises", "Chapter2Exercises\Chapter2Exercises.vcxproj", "{64387D3B-FA27-4779-975B-CCE6F660E8A9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IntermediateThreads", "IntermediateThreads\IntermediateThreads.vcxproj", "{D8815D9F-51DB-46BB-ADC5-FB456E70DDEA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MemoryModel", "MemoryModel\MemoryModel.vcxproj", "{3C0347AE-7F97-48FC-B345-8D3A059E1B84}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{64387D3B-FA27-4779-975B-CCE6F660E8A9}.Debug|x64.Build.0 = Debug|x64
 		{64387D3B-FA27-4779-975B-CCE6F660E8A9}.Release|x64.ActiveCfg = Release|x64
 		{64387D3B-FA27-4779-975B-CCE6F660E8A9}.Release|x64.Build.0 = Release|x64
+		{D8815D9F-51DB-46BB-ADC5-FB456E70DDEA}.Debug|x64.ActiveCfg = Debug|x64
+		{D8815D9F-51DB-46BB-ADC5-FB456E70DDEA}.Debug|x64.Build.0 = Debug|x64
+		{D8815D9F-51DB-46BB-ADC5-FB456E70DDEA}.Release|x64.ActiveCfg = Release|x64
+		{D8815D9F-51DB-46BB-ADC5-FB456E70DDEA}.Release|x64.Build.0 = Release|x64
+		{3C0347AE-7F97-48FC-B345-8D3A059E1B84}.Debug|x64.ActiveCfg = Debug|x64
+		{3C0347AE-7F97-48FC-B345-8D3A059E1B84}.Debug|x64.Build.0 = Debug|x64
+		{3C0347AE-7F97-48FC-B345-8D3A059E1B84}.Release|x64.ActiveCfg = Release|x64
+		{3C0347AE-7F97-48FC-B345-8D3A059E1B84}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

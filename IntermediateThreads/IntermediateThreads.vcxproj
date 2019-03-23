@@ -11,10 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{47C032D5-69AA-4FC2-AE94-C3639FA64559}</ProjectGuid>
-    <RootNamespace>ThreadingCuda</RootNamespace>
+    <ProjectGuid>{D8815D9F-51DB-46BB-ADC5-FB456E70DDEA}</ProjectGuid>
+    <RootNamespace>IntermediateThreads</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
-    <ProjectName>BasicThreadingCuda</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
@@ -82,10 +81,10 @@
     <CudaCompile Include="cudaOps\kernel.cu" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClInclude Include="cudaOps\kernel.cuh" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="cudaOps\kernel.cuh" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
