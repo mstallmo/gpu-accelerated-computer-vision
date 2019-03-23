@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/x64/Debug
+/Chapter2Exercises/x64/Debug
+/HelloCuda/x64/Debug
+/SquareVectors/x64/Debug
+/ThreadingCuda/x64/Debug
+/VectorAddition/x64/Debug
+/.vs/OpenCvAndCuda/v15
