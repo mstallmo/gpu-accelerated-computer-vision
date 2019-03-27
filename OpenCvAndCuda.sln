@@ -17,6 +17,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IntermediateThreads", "Inte
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MemoryModel", "MemoryModel\MemoryModel.vcxproj", "{3C0347AE-7F97-48FC-B345-8D3A059E1B84}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Atomics", "Atomics\Atomics.vcxproj", "{E47B3D58-BA33-4581-8841-A2CDD484596D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConstantMemory", "ConstantMemory\ConstantMemory.vcxproj", "{71ACD5A9-B82F-4A31-9D4F-D44C1948DECA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TextureMemory", "TextureMemory\TextureMemory.vcxproj", "{D0694B78-E6D3-45B5-B8C6-28CC85DF6DB9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DotProduct", "DotProduct\DotProduct.vcxproj", "{BA5104F8-4310-448E-BAD6-49AD992CD7EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +59,22 @@ Global
 		{3C0347AE-7F97-48FC-B345-8D3A059E1B84}.Debug|x64.Build.0 = Debug|x64
 		{3C0347AE-7F97-48FC-B345-8D3A059E1B84}.Release|x64.ActiveCfg = Release|x64
 		{3C0347AE-7F97-48FC-B345-8D3A059E1B84}.Release|x64.Build.0 = Release|x64
+		{E47B3D58-BA33-4581-8841-A2CDD484596D}.Debug|x64.ActiveCfg = Debug|x64
+		{E47B3D58-BA33-4581-8841-A2CDD484596D}.Debug|x64.Build.0 = Debug|x64
+		{E47B3D58-BA33-4581-8841-A2CDD484596D}.Release|x64.ActiveCfg = Release|x64
+		{E47B3D58-BA33-4581-8841-A2CDD484596D}.Release|x64.Build.0 = Release|x64
+		{71ACD5A9-B82F-4A31-9D4F-D44C1948DECA}.Debug|x64.ActiveCfg = Debug|x64
+		{71ACD5A9-B82F-4A31-9D4F-D44C1948DECA}.Debug|x64.Build.0 = Debug|x64
+		{71ACD5A9-B82F-4A31-9D4F-D44C1948DECA}.Release|x64.ActiveCfg = Release|x64
+		{71ACD5A9-B82F-4A31-9D4F-D44C1948DECA}.Release|x64.Build.0 = Release|x64
+		{D0694B78-E6D3-45B5-B8C6-28CC85DF6DB9}.Debug|x64.ActiveCfg = Debug|x64
+		{D0694B78-E6D3-45B5-B8C6-28CC85DF6DB9}.Debug|x64.Build.0 = Debug|x64
+		{D0694B78-E6D3-45B5-B8C6-28CC85DF6DB9}.Release|x64.ActiveCfg = Release|x64
+		{D0694B78-E6D3-45B5-B8C6-28CC85DF6DB9}.Release|x64.Build.0 = Release|x64
+		{BA5104F8-4310-448E-BAD6-49AD992CD7EB}.Debug|x64.ActiveCfg = Debug|x64
+		{BA5104F8-4310-448E-BAD6-49AD992CD7EB}.Debug|x64.Build.0 = Debug|x64
+		{BA5104F8-4310-448E-BAD6-49AD992CD7EB}.Release|x64.ActiveCfg = Release|x64
+		{BA5104F8-4310-448E-BAD6-49AD992CD7EB}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

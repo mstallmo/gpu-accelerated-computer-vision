@@ -11,3 +11,7 @@
 /.vs/OpenCvAndCuda/v15
 /IntermediateThreads/x64/Debug
 /MemoryModel/x64/Debug
+/ConstantMemory/x64/Debug
+/Atomics/x64/Debug
+/DotProduct/x64/Debug
+/TextureMemory/x64/Debug
