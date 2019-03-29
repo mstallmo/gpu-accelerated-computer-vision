@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TextureMemory", "TextureMem
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DotProduct", "DotProduct\DotProduct.vcxproj", "{BA5104F8-4310-448E-BAD6-49AD992CD7EB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MatrixMultiplication", "MatrixMultiplication\MatrixMultiplication.vcxproj", "{B34036A8-1A71-4FF6-9B33-733BC466D711}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -75,6 +77,10 @@ Global
 		{BA5104F8-4310-448E-BAD6-49AD992CD7EB}.Debug|x64.Build.0 = Debug|x64
 		{BA5104F8-4310-448E-BAD6-49AD992CD7EB}.Release|x64.ActiveCfg = Release|x64
 		{BA5104F8-4310-448E-BAD6-49AD992CD7EB}.Release|x64.Build.0 = Release|x64
+		{B34036A8-1A71-4FF6-9B33-733BC466D711}.Debug|x64.ActiveCfg = Debug|x64
+		{B34036A8-1A71-4FF6-9B33-733BC466D711}.Debug|x64.Build.0 = Debug|x64
+		{B34036A8-1A71-4FF6-9B33-733BC466D711}.Release|x64.ActiveCfg = Release|x64
+		{B34036A8-1A71-4FF6-9B33-733BC466D711}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
